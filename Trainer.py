@@ -241,7 +241,6 @@ def run():
 
         players = newPlayers
 
-
     gn.saveNets([player.actionNet], "CoupAIs/FINAL", "coupbot", 1.0, log=False)
     logger.printTimestamp("Training finished after ")
     logger.save("logfile.txt")
